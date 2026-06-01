@@ -1,7 +1,13 @@
-function app() {
+import ProfileCard from './components/ProfileCard';
+
+function App() {
     return (
-        <h1>First react application</h1>
+        <>
+            <h1>First react application</h1>
+            <ProfileCard />
+        </>
     );
 }
 
-export default app;
+export default App;
+
