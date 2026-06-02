@@ -1,10 +1,15 @@
-import ProfileCard from './components/ProfileCard';
+import ProfileCard from "./components/ProfileCard";
 
 function App() {
     return (
         <>
-            <h1>First react application</h1>
-            <ProfileCard />
+            <div>
+                <h1>First React application</h1>
+                <ProfileCard
+                    name="Yel Mangok"
+                    role="Full stack Software Developer"
+                />
+            </div>
         </>
     );
 }
