@@ -38,7 +38,7 @@ function ProfileCard(props) {
             </div>
 
             <button
-                className="sstatus-button"
+                className="status-button"
                 onClick={handleChangesStatus}
             >
                 Change Status
